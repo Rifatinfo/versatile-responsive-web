@@ -42,3 +42,46 @@
 .border{
     border : 2px solid rgb(230, 83, 60);
 }
+
+/* banner section */
+.banner{
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.banner-title{
+    font-size: 4.875rem;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+.banner-description{
+    margin-bottom: 28px;
+}
+.common-btn{
+    padding: 16px 40px 16px 40px;
+    background-color: rgb(230, 83, 60);
+    color: white;
+    border: none;
+    border-radius: 42px;
+}
+.banner-btn{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px ;
+    padding: 16px 40px 16px 40px;
+    background-color: transparent;
+    margin-left: 12px;
+}
+
+/* mobile responsive  */
+@media screen and (max-width: 576px) {
+    .banner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .list-items{
+       display: none;
+    }
+}
