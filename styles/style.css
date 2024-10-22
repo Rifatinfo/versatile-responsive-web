@@ -200,7 +200,13 @@ footer{
     top: -130px;
     left: 40px;
 }
-
+.team{
+    padding: 20px;
+    margin-bottom: 4px;
+}
+.team-bg{
+    background: rgba(255, 255, 255, 0.1);
+}
 
 
 
@@ -233,6 +239,6 @@ footer{
         max-width: 100%;
     }
     .team-container img{
-        margin-left: 30px;
+        margin-left: 20px;
     }
 }
