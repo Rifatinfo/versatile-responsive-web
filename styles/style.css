@@ -4,6 +4,9 @@ body{
     background-color: black;
     color: white;
 }
+.hambarger{
+    display: none;
+}
 /* linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
 .header-title{
     color: rgb(230, 83, 60);
@@ -40,9 +43,9 @@ body{
     border-radius: 2.875rem;
     border: none;
 }
-.border{
+/* .border{
     border : 2px solid rgb(230, 83, 60);
-}
+} */
 
 /* banner section */
 .banner{
@@ -268,6 +271,42 @@ table, th, td{
 }
 
 
+.circal{
+    border : 12px solid rgb(230, 83, 60);
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    margin-left: 16px;
+}
+.circal-flex{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 206px;
+    height: 96px;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: relative;
+    top: -140px;
+    right: 150px;
+}
+.circal-flex-2{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    width: 206px;
+    height: 96px;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: relative;
+    top: -540px;
+    right: 150px;
+    left: 200px;
+}
+
+
 
 /* mobile responsive  */
 @media screen and (max-width: 576px) {
@@ -308,5 +347,17 @@ table, th, td{
     }
     .bmi-calculator{
         margin-left: 15px;
+    }
+    .hambarger{
+        display: block;
+        font-size: 2rem;
+    }
+    .circal-flex{
+        left: 30px;
+    }
+    .circal-flex-2{
+        left: 120px;
+        
+        
     }
 }
