@@ -207,7 +207,21 @@ footer{
 .team-bg{
     background: rgba(255, 255, 255, 0.1);
 }
-
+.line{
+    max-width: 1060px;
+    margin: 0 auto;
+   color: rgba(255, 255, 255, 0.1);
+   border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.right-reserved{
+    max-width: 1060px;
+    margin: 15px auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    margin-bottom: 15px;
+}
 
 
 
