@@ -179,6 +179,33 @@ footer{
     background: rgba(255, 255, 255, 0.1);
 }
 
+/* our team */
+.our-team{
+    max-width: 1060px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.our-team{
+    width: 100%;
+}
+.team-container img{
+    width: 326.67px;
+    height: 272px;
+    filter: brightness(60%);
+    border-radius: 16px;
+}
+.team-content{
+    position: relative;
+    top: -130px;
+    left: 40px;
+}
+
+
+
+
+
+
 /* mobile responsive  */
 @media screen and (max-width: 576px) {
     .banner, .run-padding{
@@ -193,7 +220,7 @@ footer{
     .list-items{
        display: none;
     }
-    .habit-grid, .footer-grid{
+    .habit-grid, .footer-grid, .our-team{
         grid-template-columns: repeat(1, 1fr);
     }
     .habit-content img{
@@ -205,5 +232,7 @@ footer{
     .run-img{
         max-width: 100%;
     }
-    /* footer */
+    .team-container img{
+        margin-left: 30px;
+    }
 }
