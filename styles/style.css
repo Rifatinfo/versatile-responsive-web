@@ -1,9 +1,10 @@
 
 
-
-.bg{
-    background-color: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+body{
+    background-color: black;
+    color: white;
 }
+/* linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
 .header-title{
     color: rgb(230, 83, 60);
     font-weight: 800;
@@ -49,8 +50,9 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-bottom: 11.125rem;
+    background-color: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    color: white;
 }
 .banner-title{
     font-size: 4.875rem;
@@ -73,12 +75,14 @@
     padding: 16px 40px 16px 40px;
     background-color: transparent;
     margin-left: 12px;
+    color: white;
 }
 
 /* habit section */
-.banner-content{
+.banner{
     max-width: 1060px;
     margin: 0 auto;
+    color: white;
 }
 .habit-title{
    text-align: center;
@@ -108,8 +112,41 @@
     align-items: center;
 }
 .habit-grid{
+    max-width: 1060px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
+    color: white;
+}
+
+/* Run an Extra Mile Easily */
+.run{
+    max-width: 1060px;
+    margin: 120px auto;
+    background: rgb(34, 34, 34);
+}
+.content-run{
+    max-width: 50%;
+}
+.run-img{
+    max-width: 50%;
+}
+.run-img img{
+    width: 100%;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.run-title{
+    font-weight: 900;
+    font-size: 3rem;
+}
+.run-padding{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* mobile responsive  */
@@ -117,6 +154,10 @@
     .banner{
         flex-direction: column;
         align-items: center;
+    }
+    .banner-description{
+        display: flex;
+        justify-content: start;
     }
     .list-items{
        display: none;
